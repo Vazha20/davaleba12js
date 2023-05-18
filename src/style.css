@@ -1,0 +1,48 @@
+.movie img {
+    width: 100%;   
+  }
+#bodyColor{
+    background-color: rgb(83, 83, 83)
+}
+.glass-navbar {
+background: linear-gradient(270deg,#a8a8a8 0,transparent 100%);
+border-radius: 16px;
+backdrop-filter: blur(30px);
+-webkit-backdrop-filter: blur(30px);
+
+}
+.green h3 {
+    color: green
+  }
+.red h3{
+color: red;
+  }
+.yellow h3{
+    color: yellow;
+
+  } 
+  
+.nav-link{
+    color: white;
+}
+h3{
+    color: white;
+}
+p{
+    color: white;
+}
+.search_bar{
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+}
+.zz img{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    border-style: none;
+    padding: 10 px
+}
+
+
+
