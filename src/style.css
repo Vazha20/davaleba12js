@@ -1,50 +1,41 @@
+#bodyColor {
+    background-color: rgb(83, 83, 83);
+}
 .movie img {
     width: 100%;
+    border-radius: 10px;
 }
-
-#bodyColor {
-    background-color: rgb(83, 83, 83)
-}
-
 .glass-navbar {
     background: linear-gradient(270deg, #a8a8a8 0, transparent 100%);
     border-radius: 16px;
     backdrop-filter: blur(30px);
-    -webkit-backdrop-filter: blur(30px);
-
+    -webkit-backdrop-filter: blur(30px);   
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
 }
-
-.green h3 {
-    color: green
+.blue h3 {
+    color: blue
 }
-
 .red h3 {
     color: red;
 }
-
 .yellow h3 {
     color: yellow;
-
 }
-
 .nav-link {
     color: white;
 }
-
 h3 {
     color: white;
 }
-
 p {
     color: white;
 }
-
 .search_bar {
     padding: 10px;
     border: none;
     border-radius: 50px;
 }
-
 .zz img {
     width: 200px;
     height: 300px;
@@ -52,16 +43,16 @@ p {
     border-style: none;
     padding: 10 px
 }
-
 .dddd img {
     border-radius: 10px;
 }
-
+.col:hover {
+    transform: scale(1.1);
+}
 .btn_visual {
     background-color: rgb(83, 83, 83);
     border-style: none;
 }
-
 .footer-content {
     width: 100%;
     background: linear-gradient(270deg, #a8a8a8 0, transparent 100%);
@@ -69,14 +60,16 @@ p {
     padding: 20px;
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(30px);
+    border-end-start-radius: 0px;
+    border-end-end-radius: 0px;
 }
-.main_slider{
+.main_slider {
     border-radius: 16px;
 }
-.pos_rel{
+.pos_rel {
     position: relative;
 }
-.text_onphoto{
+.text_onphoto {
     position: absolute;
     top: 80%;
     left: 50%;
@@ -84,7 +77,11 @@ p {
     color: white;
     font-size: 24px;
 }
-html {
-    scroll-behavior: smooth;
-    overflow-y: scroll;
-  }
+.bfbfs {
+    border-radius: 20px;
+    padding: 10px;
+    background: linear-gradient(270deg, #a8a8a8 0, transparent 100%);
+    border-radius: 16px;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+}

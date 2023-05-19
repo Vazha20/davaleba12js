@@ -24,11 +24,11 @@ function showMovies(movies) {
   movies.forEach((movie) => {
     const movieEl = document.createElement("div");
     movieEl.classList.add("movie");
-    if (movie.vote_average >= 8) {
-      movieEl.classList.add("green");
-    } else if (movie.vote_average > 5 && movie.vote_average < 7) {
+    if (movie.vote_average > 7.5) {
+      movieEl.classList.add("blue");
+    } else if (movie.vote_average > 6.5 && movie.vote_average <= 7.5) {
       movieEl.classList.add("yellow");
-    } else if (movie.vote_average < 5){
+    } else {
       movieEl.classList.add("red");
     }
 
@@ -45,12 +45,3 @@ function showMovies(movies) {
     main.appendChild(movieEl);
   });
 }
-
-
-/// event loop // async
-
-//// 1) გააალამაზეთ და მოხოდეთ ვიზუალურად მთლიანი ფილმების აპლიკაცია
-
-/// 2) დაამატეთ ფოტოები  (თავსატეხი)
-
-// 3) vote_average თუ არის 5 ზე ნაკლები გააწითლე თუ არუს 5-7 მდე გააყვითლე და 8 ს ზემოთ გაამწვანე
