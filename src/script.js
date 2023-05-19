@@ -46,6 +46,7 @@ function showMovies(movies) {
   });
 }
 
+
 /// event loop // async
 
 //// 1) გააალამაზეთ და მოხოდეთ ვიზუალურად მთლიანი ფილმების აპლიკაცია
